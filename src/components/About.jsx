@@ -32,7 +32,7 @@ const About = () => {
           ease: "power1.inOut",
           stagger: 0.04,
         },
-        "-=0.5"
+        "-=0.05"
       );
   }, []);
   return (
@@ -52,14 +52,6 @@ const About = () => {
               detail from the first muddle to the final garnish. That care is
               what turns a simple drink into something truly memorable.
             </p>
-            <div>
-              <p className="md:text-3xl text-xl font-bold">
-                <span>4.5</span>/5
-              </p>
-              <p className="text-sm text-white-100">
-                More than +12000 customers
-              </p>
-            </div>
           </div>
         </div>
       </div>
